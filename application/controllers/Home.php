@@ -22,4 +22,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('home');
 	}
+	public function feature()
+	{
+		$this->load->view('feature');
+	}
 }

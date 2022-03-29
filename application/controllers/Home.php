@@ -26,4 +26,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('feature');
 	}
+	public function masterFun()
+	{
+		$this->load->view('masterFun');
+	}
 }

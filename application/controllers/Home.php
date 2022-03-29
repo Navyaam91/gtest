@@ -33,4 +33,8 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('featureFun');
 	}
+	public function masterchange()
+	{
+		$this->load->view('featureFun');
+	}
 }
